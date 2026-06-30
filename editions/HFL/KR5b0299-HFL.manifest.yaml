@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5b0299/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5b0299/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 體玄真人顯異錄
+  date: '2015-08-29 00:15:58.261288'
+  source:
+    repository: kanripo
+    path: KR5b0299
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5b0299_000-HFL.yaml, hash: 'sha256:52d44d6d47d6c60c95e05b5c092f3406387126232464c8c11fc61ff230fb1dec'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5b0299_000-HFL.markers.yaml, hash: 'sha256:904cb12dd96bba7820021266d51de1fa18da43c3c47242ef4ce744dcaf1bba43'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5b0299_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 4604
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:818ad59a9c02bd8b5c27a18f501052b1a2378a44876f2a7d6d3d325ab4b580da
